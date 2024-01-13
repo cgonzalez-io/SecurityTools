@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e60ecf1e-4eaf-4bd3-97ff-7a12149df061" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/request/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/response/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/response/MockHttpResponseGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/schema/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/schema/SObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/schema/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/security/HashGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/security/PasswordGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/encetech/web/utilities/DataGenerator.java" afterDir="false" />
+    <list default="true" id="e60ecf1e-4eaf-4bd3-97ff-7a12149df061" name="Changes" comment="Add multiple utility classes and supporting schemas&#10;&#10;A set of utility and schema classes are added to the project. This includes classes for generating hashed values, mock HTTP responses, and initializing user data, among others. Also, schemas for describing objects such as User and SObject have been introduced. This commit also includes changes to project settings and the addition of a .gitignore file.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +89,7 @@
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "SQL Dialects",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,12 +111,38 @@
       <workItem from="1704998031467" duration="1246000" />
       <workItem from="1705001236996" duration="917000" />
       <workItem from="1705013246735" duration="2055000" />
-      <workItem from="1705019193772" duration="11538000" />
+      <workItem from="1705019193772" duration="11962000" />
+      <workItem from="1705090680545" duration="1432000" />
+      <workItem from="1705119951345" duration="2416000" />
     </task>
+    <task id="LOCAL-00001" summary="Add multiple utility classes and supporting schemas&#10;&#10;A set of utility and schema classes are added to the project. This includes classes for generating hashed values, mock HTTP responses, and initializing user data, among others. Also, schemas for describing objects such as User and SObject have been introduced. This commit also includes changes to project settings and the addition of a .gitignore file.">
+      <option name="closed" value="true" />
+      <created>1705031616907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705031616907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add multiple utility classes and supporting schemas&#10;&#10;A set of utility and schema classes are added to the project. This includes classes for generating hashed values, mock HTTP responses, and initializing user data, among others. Also, schemas for describing objects such as User and SObject have been introduced. This commit also includes changes to project settings and the addition of a .gitignore file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add multiple utility classes and supporting schemas&#10;&#10;A set of utility and schema classes are added to the project. This includes classes for generating hashed values, mock HTTP responses, and initializing user data, among others. Also, schemas for describing objects such as User and SObject have been introduced. This commit also includes changes to project settings and the addition of a .gitignore file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
