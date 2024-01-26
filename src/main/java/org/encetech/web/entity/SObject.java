@@ -1,4 +1,4 @@
-package org.encetech.web.schema;
+package org.encetech.web.entity;
 
 import java.lang.reflect.Field;
 import java.util.Objects;

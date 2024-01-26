@@ -1,4 +1,4 @@
-package org.encetech.web.logistics;
+package org.encetech.web.respository.logistics;
 
 public class APRCalculatorWithCompound {
 

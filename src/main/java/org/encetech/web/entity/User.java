@@ -1,4 +1,4 @@
-package org.encetech.web.schema;
+package org.encetech.web.entity;
 
 public class User extends SObject {
   private String Alias;

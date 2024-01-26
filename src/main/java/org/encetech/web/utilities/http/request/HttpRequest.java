@@ -1,24 +1,20 @@
-package org.encetech.web.response;
+package org.encetech.web.utilities.http.request;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class HttpResponse {
+public class HttpRequest {
   private Map<String, String> headers;
   private String body;
   private int statusCode;
 
-  public HttpResponse(
-    Map<String, String> headers,
-    String body,
-    int statusCode
-  ) {
+  public HttpRequest(Map<String, String> headers, String body, int statusCode) {
     this.headers = headers;
     this.body = body;
     this.statusCode = statusCode;
   }
 
-  public HttpResponse() {
+  public HttpRequest() {
     this.headers = new HashMap<>();
   }
 
@@ -51,7 +47,7 @@ public class HttpResponse {
   @Override
   public String toString() {
     return (
-      "HttpResponse [headers=" +
+      "HttpRequest [headers=" +
       headers +
       ", body=" +
       body +

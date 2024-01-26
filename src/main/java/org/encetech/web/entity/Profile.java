@@ -1,4 +1,4 @@
-package org.encetech.web.schema;
+package org.encetech.web.entity;
 
 import java.util.Date;
 import java.util.Objects;

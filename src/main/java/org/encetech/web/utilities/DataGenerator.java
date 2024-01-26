@@ -2,8 +2,8 @@ package org.encetech.web.utilities;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import org.encetech.web.schema.Profile;
-import org.encetech.web.schema.User;
+import org.encetech.web.entity.Profile;
+import org.encetech.web.entity.User;
 
 /**
  * Represents a utility class for creating and manipulating User and Profile objects.

@@ -1,7 +1,7 @@
-package org.encetech.web.response;
+package org.encetech.web.utilities.http.response;
 
 import java.util.Objects;
-import org.encetech.web.request.HttpRequest;
+import org.encetech.web.utilities.http.request.HttpRequest;
 
 public class MockHttpResponseGenerator {
   public static String body;
