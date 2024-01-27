@@ -6,6 +6,12 @@ package org.encetech.web.utilities.sort;
  * Author: Christian J Gonzalez
  * Time Complexity: O(n*log(n) )
  */
+
+/**
+ * @description  QuickSort class provides a static method to sort an array using the QuickSort algorithm.
+ *
+ * @param <T> the type of elements in the array, must implement Comparable.
+ */
 public class QuickSort<T extends Comparable<T>> {
   private final String SUCCESS_MESSAGE = "Quick Sort Successful";
 
