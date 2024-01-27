@@ -41,13 +41,13 @@ public class BubbleSort {
     return completed();
   }
 
-    /**
-     * @description Sorts an array in descending order.
-     *
-     * @param array the array to be sorted
-     * @param <T>   the generic type of the array elements, must be comparable
-     * @return a string indicating that the sorting operation is completed
-     */
+  /**
+   * @description Sorts an array in descending order.
+   *
+   * @param array the array to be sorted
+   * @param <T>   the generic type of the array elements, must be comparable
+   * @return a string indicating that the sorting operation is completed
+   */
   public <T extends Comparable<T>> String sortDescending(T[] array) {
     while (!isSorted) {
       isSorted = true;

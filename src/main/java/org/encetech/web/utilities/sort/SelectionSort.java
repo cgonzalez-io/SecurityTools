@@ -1,8 +1,9 @@
 package org.encetech.web.utilities.sort;
+
 /*
-*Web Utilities
-* Selection Sort
-* Author: Christian J. Gonzalez
+ *Web Utilities
+ * Selection Sort
+ * Author: Christian J. Gonzalez
  */
 import java.util.ArrayList;
 
