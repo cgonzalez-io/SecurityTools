@@ -1,4 +1,3 @@
 package org.encetech.web.utilities.sort;
 
-public class HeapSort {
-}
+public class HeapSort {}

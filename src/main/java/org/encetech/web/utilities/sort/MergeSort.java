@@ -1,4 +1,3 @@
 package org.encetech.web.utilities.sort;
 
-public class MergeSort {
-}
+public class MergeSort {}

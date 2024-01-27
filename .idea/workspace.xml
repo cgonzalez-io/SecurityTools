@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e60ecf1e-4eaf-4bd3-97ff-7a12149df061" name="Changes" comment="Add APRCalculatorWithCompound class&#10;&#10;Introduced a new class, APRCalculatorWithCompound, to calculate Annual Percentage Rate (APR) considering the compounding frequency. The method iteratively adjusts APR until the present value of the payments equals the loan amount and returns APR as a percentage. Test calculations are included in the main method.">
+    <list default="true" id="e60ecf1e-4eaf-4bd3-97ff-7a12149df061" name="Changes" comment="Refactor file organization and introduce search &amp; sort utilities&#10;&#10;File organization has been updated through moving various files to new directory structures better reflecting their functionalities. New sorting and search utility files have been added, though currently they are blank placeholders for future development. A BubbleSort implementation has also been included.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/encetech/web/utilities/sort/ShellSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/abaddon/Documents/code/java/HomeAutomation&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/abaddon/Documents/code/java/WebUtilities/src/main/java/org/encetech/web/respository&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,6 +97,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.encetech.web.entity" />
+      <recent name="org.encetech.web.utilities.system" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -128,6 +135,8 @@
       <workItem from="1705598495812" duration="612000" />
       <workItem from="1705621241702" duration="2468000" />
       <workItem from="1706303958216" duration="8000" />
+      <workItem from="1706303980815" duration="3148000" />
+      <workItem from="1706319411127" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="Add multiple utility classes and supporting schemas&#10;&#10;A set of utility and schema classes are added to the project. This includes classes for generating hashed values, mock HTTP responses, and initializing user data, among others. Also, schemas for describing objects such as User and SObject have been introduced. This commit also includes changes to project settings and the addition of a .gitignore file.">
       <option name="closed" value="true" />
@@ -177,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705526328323</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Refactor file organization and introduce search &amp; sort utilities&#10;&#10;File organization has been updated through moving various files to new directory structures better reflecting their functionalities. New sorting and search utility files have been added, though currently they are blank placeholders for future development. A BubbleSort implementation has also been included.">
+      <option name="closed" value="true" />
+      <created>1706306527571</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706306527571</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +218,8 @@
     <MESSAGE value="Add new utility files for date, array, sort, and date calculation&#10;&#10;Added a DateUtility file for parsing formats and extracting information from date strings. Also added an ArrayUtility to handle array operations such as printing, insertion, deletion, searching, and sorting. In addition, created an empty SortUtilities file for future sorting algorithms and added a DateCalculator for calculating difference between two dates." />
     <MESSAGE value="Implement StackHelper, QueueHelper and enhance ArrayUtility&#10;&#10;Created StackHelper and QueueHelper classes to aid in operations involving stacks and queues. Additionally, enhanced ArrayUtility with more comprehensive functions including support for sorting methods, linear search, binary search, deletion of array elements, and duplicate checks." />
     <MESSAGE value="Add APRCalculatorWithCompound class&#10;&#10;Introduced a new class, APRCalculatorWithCompound, to calculate Annual Percentage Rate (APR) considering the compounding frequency. The method iteratively adjusts APR until the present value of the payments equals the loan amount and returns APR as a percentage. Test calculations are included in the main method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add APRCalculatorWithCompound class&#10;&#10;Introduced a new class, APRCalculatorWithCompound, to calculate Annual Percentage Rate (APR) considering the compounding frequency. The method iteratively adjusts APR until the present value of the payments equals the loan amount and returns APR as a percentage. Test calculations are included in the main method." />
+    <MESSAGE value="Refactor file organization and introduce search &amp; sort utilities&#10;&#10;File organization has been updated through moving various files to new directory structures better reflecting their functionalities. New sorting and search utility files have been added, though currently they are blank placeholders for future development. A BubbleSort implementation has also been included." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor file organization and introduce search &amp; sort utilities&#10;&#10;File organization has been updated through moving various files to new directory structures better reflecting their functionalities. New sorting and search utility files have been added, though currently they are blank placeholders for future development. A BubbleSort implementation has also been included." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

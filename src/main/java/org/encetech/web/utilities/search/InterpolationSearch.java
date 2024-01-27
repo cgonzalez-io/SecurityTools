@@ -1,4 +1,3 @@
 package org.encetech.web.utilities.search;
 
-public class InterpolationSearch {
-}
+public class InterpolationSearch {}
